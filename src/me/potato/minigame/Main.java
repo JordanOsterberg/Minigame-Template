@@ -4,6 +4,7 @@ import me.potato.minigame.commands.Start;
 import me.potato.minigame.commands.Vanish;
 import me.potato.minigame.listeners.Build;
 import me.potato.minigame.listeners.Damage;
+import me.potato.minigame.listeners.Food;
 import me.potato.minigame.listeners.Join;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
@@ -14,7 +15,7 @@ import java.util.ArrayList;
 
 public class Main extends JavaPlugin {
 
-    public Gamestates gamestates;
+    private Gamestates gamestates;
     public Gamestates getGamestate() {
         return gamestates;
     }
@@ -48,5 +49,6 @@ public class Main extends JavaPlugin {
         pm.registerEvents(new Join(this), this);
         pm.registerEvents(new Build(this), this);
         pm.registerEvents(new Damage(this), this);
+        pm.registerEvents(new Food(this), this);
     }
 }
