@@ -1,0 +1,5 @@
+name: Minigame
+version: 1.0
+main: me.potato.minigame.Main
+author: Skinlesspotato
+commands:
