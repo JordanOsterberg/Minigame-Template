@@ -1,5 +1,6 @@
 package me.potato.minigame;
 
+import me.potato.minigame.listeners.InventoryInteract;
 import me.potato.minigame.listeners.Join;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.PluginManager;
@@ -20,6 +21,7 @@ public class Main extends JavaPlugin {
     public void onEnable() {
         registerCommands();
         registerEvents();
+        setGamestate(Gamestates.LOBBY);
     }
 
     @Override
@@ -34,6 +36,7 @@ public class Main extends JavaPlugin {
     private void registerEvents() {
         PluginManager pm = Bukkit.getPluginManager();
         pm.registerEvents(new Join(this), this);
+        pm.registerEvents(new InventoryInteract(this), this);
     }
 
 }
