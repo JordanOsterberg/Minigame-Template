@@ -17,7 +17,7 @@ public class Join implements Listener {
     @EventHandler
     public void onJoin(PlayerJoinEvent event) {
         Player p = event.getPlayer();
-
+        event.setJoinMessage("");
         new PlayerManager(main).handle(p);
     }
 }

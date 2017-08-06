@@ -13,4 +13,7 @@ public class ChatManager {
     public String format(String message) {
         return ChatColor.translateAlternateColorCodes('&', message);
     }
+
+    public String permission = format("&cYou do not have permission to access this command.");
+    public String prefix = format("&8[&bMiniGame&8] &e");
 }

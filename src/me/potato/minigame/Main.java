@@ -1,6 +1,6 @@
 package me.potato.minigame;
 
-import me.potato.minigame.listeners.InventoryInteract;
+import me.potato.minigame.commands.Vanish;
 import me.potato.minigame.listeners.Join;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.PluginManager;
@@ -30,13 +30,11 @@ public class Main extends JavaPlugin {
     }
 
     private void registerCommands() {
-
+        getCommand("vanish").setExecutor(new Vanish(this));
     }
 
     private void registerEvents() {
         PluginManager pm = Bukkit.getPluginManager();
         pm.registerEvents(new Join(this), this);
-        pm.registerEvents(new InventoryInteract(this), this);
     }
-
 }
