@@ -18,18 +18,16 @@ public class Vanish implements CommandExecutor {
         this.main = main;
     }
 
-    public ArrayList<Player> vanished = new ArrayList<>();
-
     public void toggleVanish(Player player) {
-        if (!vanished.contains(player)) {
-            vanished.add(player);
+        if (!main.vanished.contains(player)) {
+            main.vanished.add(player);
             for (Player online : Bukkit.getOnlinePlayers()) {
                 online.hidePlayer(player);
             }
             player.setGameMode(GameMode.SPECTATOR);
             player.sendMessage(new ChatManager(main).prefix + "You have been vanished.");
-        } else if (vanished.contains(player)) {
-            vanished.remove(player);
+        } else if (main.vanished.contains(player)) {
+            main.vanished.remove(player);
             for (Player online : Bukkit.getOnlinePlayers()) {
                 online.showPlayer(player);
             }

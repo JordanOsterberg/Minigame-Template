@@ -4,3 +4,4 @@ main: me.potato.minigame.Main
 author: Skinlesspotato
 commands:
     vanish:
+    start:
