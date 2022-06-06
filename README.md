@@ -1,1 +1,1 @@
-# Minecraft minigame plugin by Gautam
+# Learning to code a minecraft minigame plugin by Gautam
