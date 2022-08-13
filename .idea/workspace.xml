@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1f4995a7-62cb-4934-9c8d-1bf6f75f321a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Minigame-Template.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Minigame_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/spigot.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/potato/minigame/Gamestates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io.github/Gixu572/minigame/Gamestates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/potato/minigame/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io.github/Gixu572/minigame/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/potato/minigame/commands/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io.github/Gixu572/minigame/commands/Start.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/potato/minigame/commands/Vanish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io.github/Gixu572/minigame/commands/Vanish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/potato/minigame/countdowns/PreGameTimer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io.github/Gixu572/minigame/countdowns/PreGameTimer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/potato/minigame/listeners/Build.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io.github/Gixu572/minigame/listeners/Build.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/potato/minigame/listeners/Damage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io.github/Gixu572/minigame/listeners/Damage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/potato/minigame/listeners/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io.github/Gixu572/minigame/listeners/Food.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/potato/minigame/listeners/Join.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io.github/Gixu572/minigame/listeners/Join.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/potato/minigame/managers/ChatManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io.github/Gixu572/minigame/managers/ChatManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/potato/minigame/managers/PlayerManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io.github/Gixu572/minigame/managers/PlayerManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/plugin.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2DIV3EV5mqM9DOCbOIx8YbuJIF7" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1f4995a7-62cb-4934-9c8d-1bf6f75f321a" name="Changes" comment="" />
+      <created>1660386385049</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1660386385049</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
