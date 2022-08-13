@@ -1,6 +1,6 @@
 name: Minigame
 version: 1.0
-main: me.potato.minigame.Main
+main: io.github.Gixu572.Main
 author: Skinlesspotato
 commands:
     vanish:
